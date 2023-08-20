@@ -1,6 +1,6 @@
 # MineQuest
 
-## Decoding the Enigma: A Journey into Minesweeper's Reverse Engineering
+## Decoding the Enigma: A Journey into Minesweeper's Reverse Engineering 
 
 ## Introduction
 
@@ -31,10 +31,10 @@ It's important to understand that the random numbers generated using 'srand' are
 
 Reverse engineering the game's user interface unveils the mechanics of rendering graphics, capturing interactions, and implementing flag placements. This exploration uncovers the synergy between the game's logic and the visual representation experienced by players.
 
-## Unraveling the Challenge: Deciphering the Bomb Count Through Reverse Engineering## 
+## Unraveling the Challenge: Deciphering the Bomb Count Through Reverse Engineering 
 The display of the bomb count is pivotal in Minesweeper. While in the game, players can reduce this count through flag placements. Reverse engineering unveils an avenue to manipulate this value, potentially reshaping the game's dynamics.
 
-## Cheat Engine: A Toolkit for Exploration## 
+## Cheat Engine: A Toolkit for Exploration
 Cheat Engine emerges as a potent ally for game hacking and reverse engineering. This tool allows us to delve into the memory of a running game, pinpoint specific values like the bomb count in Minesweeper, and peer into its inner workings.
 
 ![Cheat Engine](https://upload.wikimedia.org/wikipedia/commons/c/c2/Cheat_Engine_7.1.png)
@@ -55,7 +55,7 @@ To sieve out false positives, strategic in-game actions that influence the bomb 
 
 Through an iterative dance of gameplay and Cheat Engine scans, we incrementally whittle down the roster of addresses linked to the bomb count. This systematic elimination aids in pinpointing the precise memory address that governs this crucial value.
 
-## Decoding Click Tallies: A Revelation Awaits## 
+## Decoding Click Tallies: A Revelation Awaits
 Observant players might have discerned allusions to tracking click counts within Minesweeper. Employing Cheat Engine, we can lift the veil on the mechanics underpinning this counter, shedding light on how the game monitors player interactions.
 
 ## The Quandary of Pointer Scans
@@ -127,4 +127,3 @@ GitHub: github.com/aydinnyunus/Minesweeper
 
 ## Conclusion: Decrypting Minesweeper's Reverse Engineering Delight## 
 Reverse engineering Minesweeper unveils a vibrant blend of coding techniques, algorithms, and data structures. This expedition extends an appreciation for software development, unearthing memory management intricacies, UI design, and more, encapsulated within a seemingly modest game. The journey illuminates the craftsmanship underlying seemingly straightforward games, underscoring that even in simplicity, complexity thrives.
-""
